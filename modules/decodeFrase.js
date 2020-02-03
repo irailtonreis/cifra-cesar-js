@@ -20,6 +20,6 @@ export default function decodeFrase(frase, numero) {
     return contador;
   });
 
-  const encryptedResult = decriptArray.join('');
-  return encryptedResult;
+  const decriptResult = decriptArray.join('');
+  return decriptResult;
 };
